@@ -1,0 +1,52 @@
+body{
+    background: rgb(241, 241, 241);
+}
+
+#container-menupg{
+    display: flex;
+    height: 40%;
+    justify-content: center;
+    position: relative;
+    top: 2%;
+    width: 100%;
+}
+
+.menu-pg{
+    width: 17%;
+    height: 96%;
+    margin: 1%;
+    text-align: center;
+    /*border: 1px solid grey;*/
+    background: white;
+    }
+
+.inner-div{
+    height: 78%;
+}
+
+.menu-pg a img{
+    height: 62%;
+    position: relative;
+    top: 17%;
+    /* width: 86%; */
+    padding: 5% 5% 5% 5%;
+    /* background-color: #d0c5c5; */
+    margin-bottom: 0%;
+}
+
+.inner-div{
+    background-color: rgb(177 177 177 / 47%);
+    height: 70%;
+}
+
+.menu-pg:hover{
+    border: 1px solid blue;
+}
+
+.image-div{
+    height: 60%;
+}
+
+.txt-lt{
+    text-align: left;
+}

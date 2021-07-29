@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-3.6.0.js"></script>
+   
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquey/3.3.1/jquery.min.js"></script>-->
+    <!--<script src="jquery.js"></script>-->
+</head>
+<body>
+    <header>
+        <div id="fram">
+            <div id="menu"><a href="menuscreen.html"><i class="fa fa-bars"></i></a></div>Wireframe for webinar
+        </div>
+        <span>
+            >Create New Customer
+        </span>
+        
+
+        <div id="sign">
+            <ul id="head-link">
+                <!--<a href="#"><li id="enlarge">Enlage</li></a>-->
+                <select id="fonts">
+                <option value="50" id="50">50</option>
+                <option value="100" id="100" selected>100</option>
+                <option value="150" id="150">150</option>
+                </select>
+                <a href="#"><li id="enlarge"><i class="fa fa-expand noti"></i></li></a>
+                <a href="#"><li id="help"><i class="fa fa-question-circle noti"></i></li></a>
+                
+                <a href="https://auth.services.adobe.com/en_US/index.html?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2FCometWeb1%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Fxd.adobe.com%252Fview%252Ff5132690-8e8e-45a7-75d8-90c090b3a15b-8322%252F%2523from_ims%253Dtrue%2526old_hash%253D%252523%2526api%253Dauthorize%2526rctx%253D%25257B%252522reason%252522%25253A%25257B%252522PROTOTYPE_DATA_SIGN_IN%252522%25253A%25257B%252522manifestURL%252522%25253A%252522https%25253A%25252F%25252Fpublic-v2links.adobecc.com%25252Ff5132690-8e8e-45a7-75d8-90c090b3a15b%25252Fmanifest%25253Fparams%25253Dversion%2525253A%252526token%25253D1623841479_da39a3ee_d5b2af20d81d0d1f0cd1e557bd817dc26f1b6a41%252526api_key%25253DCometServer1%252522%25252C%252522linkTemplate%252522%25253A%25257B%252522href%252522%25253A%252522https%25253A%25252F%25252Fpublic-v2links.adobecc.com%25252Ff5132690-8e8e-45a7-75d8-90c090b3a15b%25252Fcomponent%25253Fparams%25253Dcomponent_id%25253A%25257Bcomponent_id%25257D%252526params%25253Dversion%25253A%25257Bversion%25257D%252526token%25253D1623841479_da39a3ee_d5b2af20d81d0d1f0cd1e557bd817dc26f1b6a41%252522%25252C%252522data%252522%25253A%25257B%252522api_key%252522%25253A%252522CometServer1%252522%25257D%25257D%25252C%252522ownerId%252522%25253A%2525221D4949695D4138CB0A495FD8%252540AdobeID%252522%25252C%252522manifest%252522%25253A%25257B%252522id%252522%25253A%252522urn%25253Aaaid%25253Asc%25253AUS%25253A596e7c05-0b2a-4dcf-addc-eaa382febb99%252522%25257D%25252C%252522invitationServiceAccessToken%252522%25253A%252522%252522%25257D%25252C%252522REDIRECT_REASON%252522%25253A%252522COMMENTING%252522%25257D%25257D%26state%3D%257B%2522ac%2522%253A%2522xd.adobe.com%2522%257D%26code_challenge_method%3Dplain%26use_ms_for_expiry%3Dtrue&client_id=CometWeb1&scope=AdobeID%2Copenid%2Ccreative_cloud%2Csao.ccprivate%2Csao.ccpublish%2Cab.manage%2Csao.comet_service&denied_callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fdenied%2FCometWeb1%3Fredirect_uri%3Dhttps%253A%252F%252Fxd.adobe.com%252Fview%252Ff5132690-8e8e-45a7-75d8-90c090b3a15b-8322%252F%2523from_ims%253Dtrue%2526old_hash%253D%252523%2526api%253Dauthorize%2526rctx%253D%25257B%252522reason%252522%25253A%25257B%252522PROTOTYPE_DATA_SIGN_IN%252522%25253A%25257B%252522manifestURL%252522%25253A%252522https%25253A%25252F%25252Fpublic-v2links.adobecc.com%25252Ff5132690-8e8e-45a7-75d8-90c090b3a15b%25252Fmanifest%25253Fparams%25253Dversion%2525253A%252526token%25253D1623841479_da39a3ee_d5b2af20d81d0d1f0cd1e557bd817dc26f1b6a41%252526api_key%25253DCometServer1%252522%25252C%252522linkTemplate%252522%25253A%25257B%252522href%252522%25253A%252522https%25253A%25252F%25252Fpublic-v2links.adobecc.com%25252Ff5132690-8e8e-45a7-75d8-90c090b3a15b%25252Fcomponent%25253Fparams%25253Dcomponent_id%25253A%25257Bcomponent_id%25257D%252526params%25253Dversion%25253A%25257Bversion%25257D%252526token%25253D1623841479_da39a3ee_d5b2af20d81d0d1f0cd1e557bd817dc26f1b6a41%252522%25252C%252522data%252522%25253A%25257B%252522api_key%252522%25253A%252522CometServer1%252522%25257D%25257D%25252C%252522ownerId%252522%25253A%2525221D4949695D4138CB0A495FD8%252540AdobeID%252522%25252C%252522manifest%252522%25253A%25257B%252522id%252522%25253A%252522urn%25253Aaaid%25253Asc%25253AUS%25253A596e7c05-0b2a-4dcf-addc-eaa382febb99%252522%25257D%25252C%252522invitationServiceAccessToken%252522%25253A%252522%252522%25257D%25252C%252522REDIRECT_REASON%252522%25253A%252522COMMENTING%252522%25257D%25257D%26response_type%3Dtoken%26state%3D%257B%2522ac%2522%253A%2522xd.adobe.com%2522%257D&state=%7B%22ac%22%3A%22xd.adobe.com%22%7D&relay=63961b18-d926-4f03-88d8-47a8235ed316&locale=en_US&flow_type=token&ctx_id=xdweb_default&dctx_id=v%3A2%2Cs%2C4c1b2d10-670c-11eb-8cd0-0787e43103ca&idp_flow_type=login#/"><li id="sign-in">sign in</li></a>
+            </ul>
+        </div>
+    </header>
+
+    <div id="main">
+       
+        <div class="bx left">
+            <!--<div id="customer-info">
+                <div id="row1">
+                    <div class="col1">
+                        Quick action
+                    </div>
+                    
+                    <div class="col2">
+                        
+
+                        <ul>
+                            <li id="search"><i class="fa fa-search noti" aria-hidden="true"></i></i><li>
+                            <li id="bell"><i class="fa fa-bell noti"></i></li>
+                            <li id="setting"><i class="fa fa-gear noti"></i></li>
+                            <li id="user"><i class="fa fa-user">john doe</i></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div id="row2">
+                    <a href="#">Costomer</a>
+                    <div>
+                        | Manage customer and customer user
+                    </div>
+                    <button type="button" id="customer-button">+Create new customer</button>
+                </div>
+            </div>
+
+
+            <div id="customer-list">
+                <table class="table">
+                    <button type="button" id="button">Show</button>
+                    <tr>
+                        <th>Customer Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Registration Date</th>
+                        <th>Actions</th>
+                    </tr>
+
+                    <tbody id="Customer-table">
+
+                    </tbody>
+
+                </table>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="row">
+                                <div class="col-sm-2">
+                                    1
+                                </div>
+
+                                <div class="col-sm-2">
+                                    2
+                                </div>
+
+                                <div class="col-sm-2">
+                                    3
+                                </div>
+
+                                <div class="col-sm-2">
+                                    4
+                                </div>
+
+                                <div class="col-sm-2">
+                                    5
+                                </div>
+
+                                <div class="col-sm-2">
+                                    >
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>-->
+
+
+            <div id="users">
+                <div class="container" id="container">
+                    <div class="row content user-ids" id="view-users">
+                        <p>Users 1</p>
+                    </div>
+
+                    <div class="row content user-ids">
+                        <p>Users 2</p>
+                    </div>
+
+                    <div class="row content user-ids">
+                        <p>Users 3</p>
+                    </div>
+                </div>
+            </div>
+
+        <footer>
+            <div class="row" id="footer">
+                <div class="col-sm-4">
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="row">
+                       
+
+                        <div class="col-sm-3">
+                            
+                        </div>
+
+                        <div class="col-sm-6">
+                            <i class="fa fa-home"></i>
+                            <a href="#"><</a>
+                            1of6
+                            <a href="#">></a>
+                        </div>
+
+                        <div class="col-sm-3">
+                            
+                        
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        </div>
+
+        <div class="bx right">
+            <div id="head">
+                <textarea id="make-comment" rows="2" cols="30"></textarea>
+            </div>
+
+            <div id="cancel">
+                Cancel
+            </div>
+
+            <div id="submit">
+                Submit
+            </div>
+
+            <div id="hr">
+            </div>
+
+            <div id="something-to-say">
+                <div>
+                    <ul class="w3-ul">
+                    <li class="w3-xxxlarge"><i class="fa fa-comments-o"></i></li>
+                    </ul>
+                </div>
+                <h5>Got Something to say</h5>
+                <p>Comment to start a discussion, make a note, or annotate the artboard</p>
+
+            </div>
+
+
+
+        </div>  
+
+    </div>
+
+   
+
+</body>
+<script src="javas.js"></script>
+</html>

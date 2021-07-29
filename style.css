@@ -1,0 +1,330 @@
+#fram{
+    display: inline-block;
+    width: 164px;
+}
+
+#head-link {
+    list-style-type: none;
+    display: inline-block;
+    width: 108%;
+}
+#sign{
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+}
+#head-link li{
+    display: inline-block;
+}
+
+header{
+    border: 1px solid grey;
+    padding: 1%;
+}
+
+header li{
+    margin: 0 1% 0 1%;
+}
+
+#main:after{
+    display: table;
+    clear: both;
+}
+
+#main{
+    height: 39rem;
+    
+}
+
+.bx{
+    float: left;
+    padding: 0%;
+    height: 90%;
+    border: 2px splid blue;
+}
+
+.left{
+    width: 70%;
+    background-color: rgb(247, 244, 244);
+    border: 1px solid #ccc7c7;
+    /*font-size: x-large;*/
+}
+
+.right{
+    width: 30%;
+}
+
+#customer-info{
+    border: 1px solid rgb(196, 185, 185);
+    margin-top: 3%;
+    height: 10%;
+    background-color: white;
+}
+
+#row1{
+    height: 50%;
+    width: 100%
+}
+
+.col1{
+    font-size: 66.5%;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+.col2{
+    display: inline-block;
+    position: absolute;
+    right: 32%;
+}
+
+.col2 ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.col2 ul li{
+    display: inline-block;
+    font-size: 66.5%;
+}
+
+#user{
+    position: relative;
+    right: 1%;
+}
+
+#row1{
+    height: 50%;
+    width: 100%
+}
+
+#row2{
+    font-size: 66.5%;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+#row2 div{
+    display: inline-block;
+}
+
+#customer-button{
+    position: absolute;
+    right: 32%;
+    background-color: orangered;
+}
+
+#customer-list{
+    width: 56%;
+    height: 37%;
+    position: absolute;
+    /* right: 10%; */
+    left: 6%;
+    top: 152px;
+    /* border: 1px solid rgb(197, 190, 190); */
+    background-color: white;
+    /* margin: 2%;s
+}
+
+#noti{
+    width: 20%;
+    height: 1%;
+    margin-left: -20%;
+    color: rgb(50, 148, 194);
+}
+
+.col2 ul li{
+    color: rgb(46, 141, 179);
+    /*width: 0%;*/
+    /*margin: 2%;*/
+}
+
+#make-comment{
+    position: absolute;
+    top: 10%;
+    right: 2.5%;
+    width: 24%;
+    height: 5%;
+}
+
+#cancel{
+    width: 7%;
+    height: 4%;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+    /* background-color: #eadfdf; */
+    color: grey;
+    padding-left: 0.6%;
+    border-radius: 9px;
+}
+
+#submit{
+    width: 7%;
+    height: 4%;
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    background-color: #eadfdf;
+    color: grey;
+    padding-left: 0.6%;
+    border-radius: 9px;
+}
+
+#hr{
+    position: absolute;
+    top: 26%;
+    right: 2%;
+    width: 25%;
+    height: 1.5px;
+    background-color: #eadfdf;
+}
+
+footer{
+    position: relative;
+    bottom: -65.3%;
+    height: 16%;
+    border: 1px solid rgb(184, 176, 176);
+}
+
+#footer-wirefram{
+    position: relative;
+    bottom: -452.3px;
+    height: 16%;
+    border: 1px solid rgb(184, 176, 176);
+}
+
+#footer{
+    position: relative;
+    top: 31%;
+}
+
+#something-to-say{
+    text-align: center;
+    position: relative;
+    top: 42%;
+    width: 94%;
+}
+
+.fa-comments-o{
+    width: 20%
+}
+
+#menu{
+    width: 9%;
+    height: 3%;
+    display: inline-block;
+}
+
+#customer-char{
+    height: 5%;
+}
+
+
+/*CSS for page 2 */
+#users{
+    width: 215px;
+    height: 35%;
+    border: 1px solid grey;
+    position: relative;
+    top: 34%;
+    left: 33%;
+    display: inline-block;
+}
+
+.container{
+    position: relative;
+    top: 18%;
+    background-color: white;
+    height: 88%;
+    width: 188px;
+    margin-top: -10%;
+    padding-top: 4%;
+}
+
+.content{
+    text-align: center;
+    margin-bottom: -8%;
+}
+
+#view-users{
+    background-color: #dad7d7c9;
+    margin-top: -6%;
+    margin-bottom: 3%;
+    padding-top: 5%;
+    /* padding-bottom: 0%;*/
+}
+
+.delete2{
+    display: inline-block;
+    width: 17%;
+    margin-top: 0%;
+    margin-left: 28%;
+    margin-bottom: 9%;
+}
+
+
+/*CSS for page 3*/
+
+#customer-3-users{
+    list-style: none;
+    margin-left: -10%;
+}
+
+#customer-3-users>li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 25px;
+}
+
+#customer-3-users>li{
+    margin-bottom: 3%;
+}
+
+/*CSS for page4*/
+
+.user-ids{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    /* margin-top: var(--bs-gutter-y); */
+    margin-top: 6%;
+}
+
+.noti{
+    color: rgb(104, 100, 100);
+}
+
+/* help starts */
+.wrapper ul{
+    list-style: none;
+    margin-top: 0%;
+}
+
+.wrapper ul li{
+    background: gainsboro;
+    width: 125px;
+    border: 1px solid grey;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+
+}
+
+.wrapper ul li:hover{
+    background: grey;
+}
+
+.wrapper ul{
+    display: none;
+}
+
+
+/* help ends*/
